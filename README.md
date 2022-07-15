@@ -45,7 +45,7 @@ Since this is the very first version, there are some side notes to make.
   1.  Calculate abc as 'Hello World' 
   2.  Calcualte abc as '(Hello World)'
 ~~~~
-* The standard code that is automatically being generated behind an $event method of a new object does not count as code and does not influence the rating.
+* The standard code that is automatically being generated behind an $event method of a new object does not count as code and does not influence the rating. For example if you create a new Pushbutton, it immediately comes with an $event method containing an onClick event. This would not be included!
 * The McCabe Complexity can be inaccurate if your code contains a function that uses multiple parameters within a pick() function.  
   For example, the following statement would increase the complexity by one too many.
 ~~~~
