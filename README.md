@@ -1,7 +1,7 @@
 [1]: http://web.archive.org/web/20021120101304/http://www.stsc.hill.af.mil/crosstalk/2001/08/welker.html
 [2]: http://www.verifysoft.com/en_maintainability.html
 
-# Maintainability-Index-For-Omnis
+# Maintainability Index for Omnis
 This repo makes it possible for Omnis(8.1) users to track the maintainability of their code. The given library provides an object class that contains the full logic behind the maintainability index calculation and a window class to test the object and to display the results.
 Since every environment can be different, everything is fairly easy to customize for self-interest. This repo should mainly act as a starting point.
 ## Maintainability Index
