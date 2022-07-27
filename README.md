@@ -7,7 +7,7 @@ Since every environment can be different, everything is fairly easy to customize
 ## Maintainability Index
 The maintainability index is supposed to give you a rough impression on whether your code could need a refactoring. To do that, the maintainability index makes use of many different code measurement possibilities and puts them all in one formula. In our case, the MI-formula includes the following measurements:
 
-* Halstead Volume
+* [Halstead Volume](https://en.wikipedia.org/wiki/Halstead_complexity_measures)
 * McCabe's Cyclomatic Complexity
 * Lines of code
 * Comment rate
