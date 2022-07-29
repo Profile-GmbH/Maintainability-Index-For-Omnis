@@ -1,14 +1,14 @@
 [1]: http://web.archive.org/web/20021120101304/http://www.stsc.hill.af.mil/crosstalk/2001/08/welker.html
 [2]: http://www.verifysoft.com/en_maintainability.html
 
-# Maintainability-Index-For-Omnis
+# Maintainability Index for Omnis
 This repo makes it possible for Omnis(8.1) users to track the maintainability of their code. The given library provides an object class that contains the full logic behind the maintainability index calculation and a window class to test the object and to display the results.
 Since every environment can be different, everything is fairly easy to customize for self-interest. This repo should mainly act as a starting point.
 ## Maintainability Index
 The maintainability index is supposed to give you a rough impression on whether your code could need a refactoring. To do that, the maintainability index makes use of many different code measurement possibilities and puts them all in one formula. In our case, the MI-formula includes the following measurements:
 
-* Halstead Volume
-* McCabe's Cyclomatic Complexity
+* [Halstead Volume](https://en.wikipedia.org/wiki/Halstead_complexity_measures)
+* [McCabe's Cyclomatic Complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 * Lines of code
 * Comment rate
 
@@ -45,7 +45,7 @@ Since this is the very first version, there are some side notes to make.
   1.  Calculate abc as 'Hello World' 
   2.  Calcualte abc as '(Hello World)'
 ~~~~
-* The standard code that is automatically being generated behind an $event method of a new object does not count as code and does not influence the rating.
+* The standard code that is automatically being generated behind an $event method of a new object does not count as code and does not influence the rating. For example if you create a new Pushbutton, it immediately comes with an $event method containing an onClick event. This would not be included!
 * The McCabe Complexity can be inaccurate if your code contains a function that uses multiple parameters within a pick() function.  
   For example, the following statement would increase the complexity by one too many.
 ~~~~
