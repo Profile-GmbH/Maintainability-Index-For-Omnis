@@ -53,3 +53,6 @@ Since this is the very first version, there are some side notes to make.
 ~~~~
 * <=,>=,<> count as one token.
 * Commands like "Break to end of loop" that are not included in the switch statement of $mainHalstead are counted as one token.
+
+## Support
+We are available for support to implement this in Your development-workflow. Just drop me a line.
